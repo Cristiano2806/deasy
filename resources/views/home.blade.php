@@ -7,15 +7,31 @@
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+                <form method="POST" action="{{ route('home.sintomas') }}">                                
+                @csrf
 
-                    {{ __('You are logged in!') }}
-                </div>
+                    <div class="card-body">
+                        @if (session('status'))
+                            <div class="alert alert-success" role="alert">
+                                {{ session('status') }}
+                            </div>
+                        @endif
+                            <div class="card" style="width: 18rem;">
+                                @foreach($sintomas as $s)
+                                <div class="form-check">
+                                    <input name="input_sintoma[]" class="form-check-input" type="checkbox" value="{{$s->id}}" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                    {{$s->nome}}
+                                    </label>
+                                </div>
+                                    @endforeach
+                                <div class="card-footer">
+
+                                   <button class="btn btn-primary" type="submit">Enviar</button>
+                                </div>
+                            </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

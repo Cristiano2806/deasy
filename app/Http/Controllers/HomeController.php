@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Sintomas;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,16 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $sintomas = Sintomas::get();
+        
+        return view('home', compact('sintomas'));
+    }
+
+    public function sintomas(Request $request)
+    {
+        //$sintomas = Sintomas::get();
+        dd($request);
+
+        return view('home', compact('sintomas'));
     }
 }
