@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header">{{ __('Sintomas Covid-19') }}</div>
 
                 <form method="POST" action="{{ route('home.sintomas') }}">                                
                 @csrf
@@ -24,7 +24,10 @@
                                     {{$s->nome}}
                                     </label>
                                 </div>
-                                    @endforeach
+                                @endforeach
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Descreva o que está sentindo..." id="floatingTextarea"></textarea>
+                                </div>
                                 <div class="card-footer">
 
                                    <button class="btn btn-primary" type="submit">Enviar</button>
