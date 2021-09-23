@@ -15,7 +15,7 @@
 	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
 	<meta property="og:image" content="" /> <!-- image link, make sure its jpg -->
 	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+	
 
     
     <title>D-easy</title>
@@ -34,11 +34,7 @@
     
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
         <div class="container">
-
-            
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> 
-
-            
+            <h1>D-EASY</h1>
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -99,7 +95,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <h1>Nossa missão é cuidar do próximo</h1>
+                    <h2>Nossa missão é cuidar do próximo</h2>
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="text-container">
@@ -142,7 +138,7 @@
             <div class="row">
                 <div class="col-lg-6 col-xl-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="/assets/images/" alt="alternative">
+                        <img class="img-fluid" src="/assets/images/_115033548_gettyimages-1226314512.jpg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-5">
@@ -208,7 +204,7 @@
                     </div>
                     
 
-                    <!-- Card -->
+                   
                     <div class="card second">
                         <div class="card-icon">
                             <span class="far fa-clock green"></span>
@@ -250,7 +246,7 @@
                     </div>
                     
 
-                    <!-- Card -->
+                    
                     <div class="card third">
                         <div class="card-icon">
                             <span class="far fa-chart-bar green"></span>
@@ -298,7 +294,7 @@
                 </div> 
                 <div class="col-xl-6">
                     
-                    <!-- Counter -->
+                   
                     <div class="counter-container">
                         <div class="counter-cell">
                             <div data-purecounter-start="0" data-purecounter-end="519" data-purecounter-duration="2" class="purecounter">1</div>
@@ -322,7 +318,7 @@
         </div> 
     </div>
 
-    <!-- Footer -->
+    
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -342,19 +338,14 @@
                 <div class="col-lg-12">
                     <p class="p-small">Copyright © Cristiano Botelho</a></p>
                 </div> 
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
-    
-
-    <!-- Back To Top Button -->
+            </div> 
+        </div>
+    </div>  
+   
     <button onclick="topFunction()" id="myBtn">
         <img src="images/up-arrow.png" alt="alternative">
     </button>
-    <!-- end of back to top button -->
-    	
-    <!-- Scripts -->
+   
     <script src="assets/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="assets/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
     <script src="assets/js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->

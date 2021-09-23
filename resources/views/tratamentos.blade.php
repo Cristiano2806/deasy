@@ -4,15 +4,16 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Sintomas Covid-19') }}</div>
-
+            <h1>De acordo com seus sintomas, sugrimos que:</h1>
+            <br>
                                 @foreach($tratamentos as $s)
                                     @foreach($array as $a)
                                     @if ($s->id == $a)
                                         <div class="form-check">
-                                        <label class="form-check-label" for="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault" style="color: antiquewhite">
                                         {{$s->tratamento}}
+                                        <br>
+                                        <br>
                                         </label>
                                     </div>
                                     @endif
@@ -21,14 +22,13 @@
 
                                 @endforeach
                                 <div class="card-footer">
-
-                                   <button class="btn btn-primary" type="submit">Enviar</button>
                                 </div>
                             </div>
                     </div>
                 </form>
-            </div>
+            
         </div>
     </div>
 </div>
 @endsection
+
