@@ -33,11 +33,13 @@ class HomeController extends Controller
     public function sintomas(Request $request)
     {
         //$sintomas = Sintomas::get();
+        $user = auth()->user();
         $paciente = new Pacientes();
         $paciente->sintomas = $request->input_sintoma;
         $paciente->descricao = $request->descricao;
+        $paciente->user_id = $user->id;
         $paciente->save();
 
-        return redirect('/');
+        return redirect('/tratamentos');
     } 
 }

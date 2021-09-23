@@ -127,7 +127,7 @@
                 </div> 
                 <div class="col-lg-6 col-xl-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="/public/assets/images/vaccine-5439120-1920.jpg" alt="Vacina">
+                        <img class="img-fluid" src="assets/images/vaccine-5439120-1920.jpg" alt="Vacina">
                     </div> 
                 </div> 
             </div> 
@@ -142,7 +142,7 @@
             <div class="row">
                 <div class="col-lg-6 col-xl-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
+                        <img class="img-fluid" src="/assets/images/" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-5">
