@@ -26,7 +26,7 @@
                                 </div>
                                 @endforeach
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Descreva o que está sentindo..." id="floatingTextarea"></textarea>
+                                    <textarea name="descricao" class="form-control" placeholder="Descreva o que está sentindo..." id="floatingTextarea"></textarea>
                                 </div>
                                 <div class="card-footer">
 

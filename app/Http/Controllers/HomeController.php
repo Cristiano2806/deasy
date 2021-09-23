@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Sintomas;
+use App\Pacientes;
 
 class HomeController extends Controller
 {
@@ -32,8 +33,11 @@ class HomeController extends Controller
     public function sintomas(Request $request)
     {
         //$sintomas = Sintomas::get();
-        dd($request);
+        $paciente = new Pacientes();
+        $paciente->sintomas = $request->input_sintoma;
+        $paciente->descricao = $request->descricao;
+        $paciente->save();
 
-        return view('home', compact('sintomas'));
-    }
+        return redirect('/');
+    } 
 }
