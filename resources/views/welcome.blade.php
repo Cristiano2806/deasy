@@ -22,7 +22,6 @@
 </head>
 <body>
     
-    
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
         <div class="container">
             <h1>D-EASY</h1>
@@ -79,9 +78,6 @@
         </div> 
     </header> 
    
-
-
-  
     <div id="intro" class="basic-1 bg-gray">
         <div class="container">
             <div class="row">
@@ -98,9 +94,6 @@
             </div> 
         </div> 
     </div> 
-    
-
-
     
     <div id="projects" class="basic-2">
         <div class="container">
@@ -120,10 +113,7 @@
             </div> 
         </div>
     </div> 
- 
-
-
-    
+     
     <div class="basic-3 bg-gray">
         <div class="container">
             <div class="row">
@@ -144,10 +134,6 @@
         </div> 
     </div> 
   
-
-
-    
-    
     <div class="basic-5">
         <div class="container">
             <div class="row">
