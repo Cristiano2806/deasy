@@ -105,9 +105,8 @@
                 <div class="col-lg-12">
                     <p class="p-small">Copyright © Cristiano Botelho</a></p>
                 </div> 
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
+            </div> 
+        </div> 
+    </div> 
 </body>
 </html>
