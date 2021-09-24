@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <h1>De acordo com seus sintomas, sugrimos que:</h1>
+            <h1>De acordo com seus sintomas, sugerimos que:</h1>
             <br>
                                 @foreach($tratamentos as $s)
                                     @foreach($array as $a)
