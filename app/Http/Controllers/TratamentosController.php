@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 
 use App\Pacientes;
 use App\Tratamentos;
-use App\Sintomas;
 use Illuminate\Http\Request;
 
 class TratamentosController extends Controller
